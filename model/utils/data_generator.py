@@ -1,7 +1,7 @@
 import time
 import os
 import numpy as np
-from scipy.misc import imread
+from imageio import imread
 import random
 
 from .text import load_formulas

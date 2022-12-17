@@ -4,7 +4,7 @@ import numpy as np
 import PIL.Image as PILImage
 import os
 import PIL
-from scipy.misc import imread
+from imageio import imread
 from matplotlib import transforms
 from matplotlib.animation import FuncAnimation
 import matplotlib as mpl

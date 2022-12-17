@@ -3,7 +3,7 @@ import os
 import numpy as np
 import time
 import threading
-from scipy.misc import imread
+from imageio import imread
 from PIL import Image
 
 from model.img2seq import Img2SeqModel

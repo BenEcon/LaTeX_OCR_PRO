@@ -1,4 +1,4 @@
-from scipy.misc import imread
+from imageio import imread
 import PIL
 import os
 from PIL import Image
